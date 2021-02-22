@@ -1,6 +1,6 @@
 import React from "react";
 // import Quiz from "../components/quiz";
-// import GetLeaderBoard from '../components/getleaderboard';
+import Globalforestwatch from '../components/Globalforestwatch';
 import {Link} from "react-router-dom";
 
 class QuizForm extends React.Component {
@@ -131,10 +131,10 @@ class QuizForm extends React.Component {
 											
     									</div>
     								</div>
-									<Link to="/solarscope">
+									<Link to="/Globalforestwatch">
                                 <button className="submittedButton"
                                 type="submit">
-                                Learn more about solar system here!
+                                Watch real time World Forest Map and Tree Cover Change Data!
                                 </button>
                             </Link>
     								</form>

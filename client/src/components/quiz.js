@@ -5,81 +5,103 @@ import QuizForm from '../components/quizForm';
 	function Quiz(){
 		const questions = [
 		{
-			questionText: 'Which is the closest planet to the Sun?',
+			questionText: 'Forest covers how much (in percentage) of planet Earth?Hint:Watch video for answers',
 			answerOptions: [
-				{ answerText: 'Mercury', isCorrect: true },
-				{ answerText: 'Venus', isCorrect: false },
-				{ answerText: 'Earth', isCorrect: false },
-				{ answerText: 'Mars', isCorrect: false },
+				{ answerText: '30%', isCorrect: true },
+				{ answerText: '20%', isCorrect: false },
+				{ answerText: '10%', isCorrect: false },
+				{ answerText: '5%', isCorrect: false },
 			],
 		}, 
 		{
-			questionText: 'Which planet has the longest orbit?',
+			questionText: 'At the current rate of deforestration, we can loose our rainforest completely in ___years.Fill in the blank with the right answer.Hint:Watch video for answers',
 			answerOptions: [
-				{ answerText: 'Neptune', isCorrect: false },
-				{ answerText: 'Uranus', isCorrect: true },
-				{ answerText: 'Saturn', isCorrect: false },
-				{ answerText: 'Jupiter', isCorrect: false },
+				{ answerText: '1000 years', isCorrect: false },
+				{ answerText: '100 years', isCorrect: true },
+				{ answerText: '200 years', isCorrect: false },
+				{ answerText: '500 years', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'Which planet is called the Goldilocks planet?',
+			questionText: 'Forestry and Agriculture are responsible for ____ of greenhouse gas emmission. Fill in the blank with the right answer.Hint:Watch video for answers',
 			answerOptions: [
-				{ answerText: 'Earth', isCorrect: true },
-				{ answerText: 'Mars', isCorrect: false },
-				{ answerText: 'Saturn', isCorrect: false },
-				{ answerText: 'Neptune', isCorrect: false },
+				{ answerText: '5%', isCorrect: false },
+				{ answerText: '24%', isCorrect: true },
+				{ answerText: '10%', isCorrect: false },
+				{ answerText: '15%', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'How many moons does the planet Mars have?',
+			questionText: 'When trees are felled they release___ into the atmosphere?Fill in the blank with the right answer.Hint:Watch video for answers',
+			answerOptions: [
+				{ answerText: 'Smoke', isCorrect: false },
+				{ answerText: 'Water', isCorrect: false },
+				{ answerText: 'Oxygen', isCorrect: false },
+				{ answerText: 'Carbon', isCorrect: true },
+			],
+		},
+
+		{
+			questionText: 'Why is the increased carbon in the atmosphere bad for earth?Hint:Watch video for answers',
+			answerOptions: [
+				{ answerText: 'Air becomes too hazy', isCorrect: false },
+				{ answerText: 'Increases the speed of global warming', isCorrect: true },
+				{ answerText: 'Atmosphere becomes too cloudy', isCorrect: false },
+				
+			],
+		},
+
+		{
+			questionText: 'Forests provide habitat to ___ of animals and plants on the planet. Fill in the blank with the right answer.Hint:Watch video for answers',
+			answerOptions: [
+				{ answerText: '50%', isCorrect: false },
+				{ answerText: '30%', isCorrect: false },
+				{ answerText: '80%', isCorrect: true },
+				{ answerText: '10%', isCorrect: false },
+			],
+		},
+
+		{
+			questionText: 'Deforestration impacts biodiversity. The estimate is___ rainforest species goes extinct each year?Fill in the blank with the right answer.Hint:Watch video for answers',
+			answerOptions: [
+				{ answerText: '1 thousand to 3 thousand', isCorrect: false },
+				{ answerText: '4 thousand to 6 thousand', isCorrect: true },
+				{ answerText: 'none', isCorrect: false },
+				{ answerText: '2 thousand to 4 thousand', isCorrect: true },
+			],
+		},
+
+		{
+			questionText: 'Some ___ billion people rely on rainforest for food and shelter. Fill in the blank with the right answer.Hint:Watch video for answers',
 			answerOptions: [
 				{ answerText: '1', isCorrect: false },
 				{ answerText: '4', isCorrect: false },
-				{ answerText: '27', isCorrect: false },
 				{ answerText: '2', isCorrect: true },
+				{ answerText: '0.5', isCorrect: true },
 			],
 		},
 
 		{
-			questionText: 'How many moons(official) does the planet Jupiter have?',
+			questionText: 'Which is the biggest driver of deforestration? Fill in the blank with the right answer.Hint:Watch video for answers',
 			answerOptions: [
-				{ answerText: '100', isCorrect: false },
-				{ answerText: '9', isCorrect: false },
-				{ answerText: '27', isCorrect: false },
-				{ answerText: '79', isCorrect: true },
+				{ answerText: 'Agriculture', isCorrect: true },
+				{ answerText: 'Housing development', isCorrect: false },
+				{ answerText: 'Building of roads', isCorrect: true },
+				{ answerText: 'Floods', isCorrect: true },
 			],
 		},
 
+
 		{
-			questionText: 'Which is the biggest planet in our solar system?',
+			questionText: 'How can we combat deforestration and prevent further loss of biodiversity?',
 			answerOptions: [
-				{ answerText: 'Earth', isCorrect: false },
-				{ answerText: 'Uranus', isCorrect: false },
-				{ answerText: 'Jupiter', isCorrect: true },
-				{ answerText: 'Mars', isCorrect: false },
+				{ answerText: 'Managing forest resources', isCorrect: true },
+				{ answerText: 'Eliminating clear cutting', isCorrect: true },
+				{ answerText: 'Planting new trees', isCorrect: true },
+				{ answerText: 'All of the above', isCorrect: true },
 			],
 		},
 
-		{
-			questionText: 'Which is the hottest and most inhabitable planet?',
-			answerOptions: [
-				{ answerText: 'Saturn', isCorrect: false },
-				{ answerText: 'Venus', isCorrect: true },
-				{ answerText: 'Mars', isCorrect: false },
-				{ answerText: 'Mercury', isCorrect: true },
-			],
-		},
-
-		{
-			questionText: 'Which planet has the tallest mountain?',
-			answerOptions: [
-				{ answerText: 'Earth', isCorrect: false },
-				{ answerText: 'Venus', isCorrect: false },
-				{ answerText: 'Mars', isCorrect: true },
-				{ answerText: 'Jupiter', isCorrect: true },
-			],
-		},
 
 
 	];
@@ -102,6 +124,19 @@ import QuizForm from '../components/quizForm';
 		}
 	};
 
+	const awarenessVideo = {
+		awarenessVideo:
+		'<iframe width="560" height="315" src="https://www.youtube.com/embed/Ic-J6hcSKa8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+		
+	  };
+
+	function Iframe(props) {
+		return (
+		  <div
+			dangerouslySetInnerHTML={{ __html: props.iframe ? props.iframe : "" }}
+		  />
+		);
+	}
 	
 
 	
@@ -127,6 +162,7 @@ import QuizForm from '../components/quizForm';
 						{questions[currentQuestion].answerOptions.map((answerOption) => (
 						<button btn btn-lg onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
 					))}
+					<Iframe iframe={awarenessVideo["awarenessVideo"]} allow="autoplay" />,
 					</div>
 					
 				</>

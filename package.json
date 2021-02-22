@@ -1,18 +1,29 @@
 {
-  "homepage": "https://belle1306.github.io/infinity/",
-  "name": "infinity",
+  "homepage": "https://victressnewrelic.herokuapp.com/",
+  "name": "victress",
   "version": "0.0.0",
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },
   "private": true,
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
     "start": "nodemon ./bin/www",
+    "heroku-postbuild": "cd client && npm install && npm run build",
     "migrate": "node model/database.js"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "client/node_modules"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/victressnewrelic.git"
   },
   "dependencies": {
     "axios": "^0.21.1",
     "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
     "debug": "~2.6.9",
     "deployment": "^0.2.3",
     "dotenv": "^8.2.0",
@@ -20,8 +31,10 @@
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "mysql": "^2.18.1",
+    "newrelic": "^7.1.1",
     "nodemon": "^2.0.7",
-    "react-datepicker": "^3.4.1"
+    "react-datepicker": "^3.4.1",
+    "react-leaflet": "^3.1.0"
   },
   "devDependencies": {
     "gh-pages": "^3.1.0"

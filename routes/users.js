@@ -6,8 +6,6 @@ const bodyParser = require("body-parser");
 router.use(bodyParser.json());
 
 
-
-
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   res.send('API working');

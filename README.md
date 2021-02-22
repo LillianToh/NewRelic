@@ -18,7 +18,7 @@ URI | HTTP Method | Description
 ### Dependencies
 
 - Run `npm install` in project directory. This will install server-related dependencies such as express.
-- `cd client` and run `yarn install`. This will install client dependencies React App.
+- `cd client` and run `npm install`, `npm install newrelic --save`. This will install client dependencies React App.
 - You can test your client app on `http://localhost:3000`
 - You can test your API in `http://localhost:5000/`
 
@@ -47,6 +47,10 @@ Run `npm run migrate` in the main folder of this repository, in a new terminal w
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
 - [Three.js Documentation](https://threejs.org/)
 
-## Notes
+## Submission
 
-_This is a student project that was created at [CodeOp](http://CodeOp.tech), a full stack development bootcamp in Kuala Lumpur._
+By Victress Malaysians 👩🏻‍💻
+
+## What we built
+
+[Placeholder App] is built  for global users who have access to the internet. Users have varying awareness levels about deforestation and illegal logging. The product is a platform. THAT Unlike traditional donation and volunteering pages. Our product creates awareness that translates to actionable user actions to help Mother Earth.

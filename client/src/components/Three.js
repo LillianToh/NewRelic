@@ -179,10 +179,11 @@ export default class ThreeHome extends Component {
               <h3>[team name]</h3>
               <div ref ={ref => (this.mount = ref)}></div>
               <header>
-                <a href="/solarscope" className="top-left" children="Explore Solar System" />
-                <a href='/Quiz' className="top-right" children="Astronomical Quiz" />
+                <a href="/Globalforestwatch" className="top-left" children="Explore real time data with Global Forest Watch" />
+                <a href='/Quiz' className="top-right" children="Quiz" />
                 <a href="/message" className="bottom-right" children="Message Aliens" />
                 <a href="/apod" className="bottom-left" children="Astronomical Birthday" />
+                <a href="/map" className="bottom-center" children="Leaflet Map" />
               </header>
               </div>
           </div>
